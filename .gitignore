@@ -2,3 +2,7 @@ target/
 out
 .idea/
 *.iml
+build/*.jar
+.env
+
+

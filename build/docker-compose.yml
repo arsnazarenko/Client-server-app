@@ -1,0 +1,16 @@
+version: '3.7'
+
+services:
+    db:
+        image: 'postgres:14.1-alpine'
+        ports:
+            - '5432:5432'
+        restart: always
+        container_name: db
+        environment:
+            - POSTGRES_USER
+            - POSTGRES_PASSWORD
+            - POSTGRES_DB
+
+
+

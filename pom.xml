@@ -4,14 +4,14 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>groupId</groupId>
-    <artifactId>LabWork8</artifactId>
+    <groupId>com.itmo.programming</groupId>
+    <artifactId>application</artifactId>
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
     <modules>
-        <module>Client</module>
-        <module>LabLibrary</module>
-        <module>Server</module>
+        <module>client</module>
+        <module>commons</module>
+        <module>server</module>
     </modules>
 
 

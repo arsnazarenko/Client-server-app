@@ -2,7 +2,7 @@ package client.servises;
 
 
 
-import library.сlassModel.*;
+import library.model.*;
 import java.util.Arrays;
 import java.util.Date;
 import java.util.Scanner;

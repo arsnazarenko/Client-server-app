@@ -2,7 +2,7 @@ package library.command;
 
 
 import library.model.Organization;
-import library.utils.UserData;
+import library.model.UserData;
 
 import java.util.Objects;
 

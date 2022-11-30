@@ -1,7 +1,7 @@
 package server.business.handlers;
 
-import library.clientCommands.Command;
-import library.clientCommands.UserData;
+import library.command.Command;
+import library.model.UserData;
 import server.business.dao.PasswordHash;
 import server.business.dao.UserDAO;
 import server.business.dao.UserInfo;

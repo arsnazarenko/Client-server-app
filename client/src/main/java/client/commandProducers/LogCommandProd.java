@@ -1,8 +1,8 @@
 package client.commandProducers;
 
-import library.clientCommands.Command;
-import library.clientCommands.UserData;
-import library.clientCommands.commandType.LogCommand;
+import library.command.Command;
+import library.model.UserData;
+import library.command.LogCommand;
 
 public class LogCommandProd implements StandardCommandProducer{
     @Override

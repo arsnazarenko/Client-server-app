@@ -2,9 +2,9 @@ package client.servises;
 
 
 
-import library.clientCommands.InfoCollection;
-import library.clientCommands.SpecialSignals;
-import library.сlassModel.Organization;
+import library.utils.InfoCollection;
+import library.utils.SpecialSignals;
+import library.model.Organization;
 
 import java.util.Deque;
 /**

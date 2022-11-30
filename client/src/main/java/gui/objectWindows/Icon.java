@@ -3,9 +3,9 @@ package gui.objectWindows;
 import gui.ClientManager;
 import gui.graphicsInterface.Collection;
 import gui.graphicsInterface.controllers.Controllers;
-import library.clientCommands.commandType.RemoveIdCommand;
-import library.clientCommands.commandType.UpdateIdCommand;
-import library.сlassModel.Organization;
+import library.command.RemoveIdCommand;
+import library.command.UpdateIdCommand;
+import library.model.Organization;
 
 import javax.swing.*;
 import java.awt.*;

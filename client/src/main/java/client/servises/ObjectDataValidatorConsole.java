@@ -1,6 +1,6 @@
 package client.servises;
 
-import library.сlassModel.OrganizationType;
+import library.model.OrganizationType;
 
 public class ObjectDataValidatorConsole implements IValidator{
 

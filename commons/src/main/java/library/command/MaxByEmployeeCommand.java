@@ -1,7 +1,7 @@
 package library.command;
 
 
-import library.utils.UserData;
+import library.model.UserData;
 
 public class MaxByEmployeeCommand extends Command {
     public MaxByEmployeeCommand(UserData userData) {

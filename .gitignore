@@ -3,6 +3,6 @@ out
 .idea/
 *.iml
 build/*.jar
-.env
+build/.env
 
 

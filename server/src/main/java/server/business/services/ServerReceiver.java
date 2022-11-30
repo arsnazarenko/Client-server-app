@@ -1,6 +1,6 @@
 package server.business.services;
 
-import library.clientCommands.SpecialSignals;
+import library.utils.SpecialSignals;
 import library.serialization.SerializationManager;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;

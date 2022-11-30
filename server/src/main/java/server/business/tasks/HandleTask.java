@@ -1,6 +1,6 @@
 package server.business.tasks;
 
-import library.clientCommands.Command;
+import library.command.Command;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import server.business.IHandlersController;

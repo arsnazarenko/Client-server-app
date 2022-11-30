@@ -1,7 +1,7 @@
 package server.business.handlers;
 
-import library.clientCommands.Command;
-import library.clientCommands.NameOfCommands;
+import library.command.Command;
+import library.utils.NameOfCommands;
 
 import java.util.Arrays;
 

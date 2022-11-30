@@ -1,8 +1,8 @@
 package client.commandProducers;
 
-import library.clientCommands.Command;
-import library.clientCommands.UserData;
-import library.clientCommands.commandType.MaxByEmployeeCommand;
+import library.command.Command;
+import library.model.UserData;
+import library.command.MaxByEmployeeCommand;
 
 public class MaxByEmployeesCommandProd implements StandardCommandProducer{
     @Override

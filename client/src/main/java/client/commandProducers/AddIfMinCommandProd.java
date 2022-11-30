@@ -1,14 +1,14 @@
 package client.commandProducers;
 
 import client.servises.IObjectCreator;
-import library.clientCommands.Command;
-import library.clientCommands.UserData;
-import library.clientCommands.commandType.AddIfMinCommand;
+import library.command.Command;
+import library.model.UserData;
+import library.command.AddIfMinCommand;
 
 import java.util.Scanner;
 
 public class AddIfMinCommandProd implements StandardCommandProducer, ScanProperties {
-    private IObjectCreator objectCreator;
+    private final IObjectCreator objectCreator;
     private Scanner scanner = null;
 
     public AddIfMinCommandProd(IObjectCreator objectCreator) {

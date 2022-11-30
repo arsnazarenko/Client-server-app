@@ -1,10 +1,10 @@
 package client.servises;
 
 import client.commandData.CommandData;
-import library.clientCommands.Command;
-import library.clientCommands.NameOfCommands;
-import library.clientCommands.UserData;
-import library.clientCommands.commandType.ExitCommand;
+import library.command.Command;
+import library.utils.NameOfCommands;
+import library.model.UserData;
+import library.command.ExitCommand;
 import java.io.Console;
 import java.util.*;
 import java.util.stream.Collectors;

@@ -1,5 +1,5 @@
 package server.business.dao;
-import library.clientCommands.UserData;
+import library.model.UserData;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import java.sql.Connection;

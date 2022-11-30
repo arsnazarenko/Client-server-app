@@ -3,7 +3,7 @@ package client.servises;
 
 
 import client.commandData.CommandData;
-import library.clientCommands.Command;
+import library.command.Command;
 
 import java.util.Scanner;
 

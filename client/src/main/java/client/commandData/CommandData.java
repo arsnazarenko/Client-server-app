@@ -1,8 +1,8 @@
 package client.commandData;
 
 
-import library.clientCommands.NameOfCommands;
-import library.clientCommands.UserData;
+import library.utils.NameOfCommands;
+import library.model.UserData;
 
 /**
  * Класс для промедуточного хранения данных команды для ее создания

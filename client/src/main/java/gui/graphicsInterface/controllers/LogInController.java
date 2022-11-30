@@ -11,10 +11,10 @@ import gui.graphicsInterface.mainWindow.UserPanel;
 import gui.graphicsInterface.mainWindow.commands.CommandPanel;
 import gui.graphicsInterface.mainWindow.table.TablePanel;
 import gui.objectWindows.ObjectsMapView;
-import library.clientCommands.SpecialSignals;
-import library.clientCommands.UserData;
-import library.clientCommands.commandType.LogCommand;
-import library.clientCommands.commandType.RegCommand;
+import library.utils.SpecialSignals;
+import library.model.UserData;
+import library.command.LogCommand;
+import library.command.RegCommand;
 
 import javax.swing.*;
 import java.util.ResourceBundle;

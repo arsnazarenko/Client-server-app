@@ -1,8 +1,8 @@
 package client.commandProducers;
 
-import library.clientCommands.Command;
-import library.clientCommands.UserData;
-import library.clientCommands.commandType.ClearCommand;
+import library.command.Command;
+import library.model.UserData;
+import library.command.ClearCommand;
 
 public class ClearCommandProd implements StandardCommandProducer {
     @Override

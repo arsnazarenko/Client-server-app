@@ -28,28 +28,28 @@ public class ClientStarter {
             ConsoleClient consoleClient = new ConsoleClient(commandCreator, ByteBuffer.allocate(256 * 1024),
                     socketAddress, answerHandler);
             GuiClient client = new GuiClient(ByteBuffer.allocate(256 * 1024), socketAddress);
-            if (clientVersion.equals("console")) {
+            if (clientVersion.equals("cli")) {
                 consoleClient.process(datagramChannel);
             } else if (clientVersion.equals("gui")){
                 client.process(datagramChannel);
             } else {
-                System.out.println("НЕКОРРЕКТНАЯ ВЕРСИЯ\nSAMPLE: java -jar Client.jar [hostname] [port] [version]");
+                System.out.println("INCORRECT CLIENT APP TYPE\nSAMPLE: java -jar Client.jar [hostname] [port] [gui/cli]");
             }
 
         } catch (IOException e) {
-            System.out.println("ОШИБКА ПОДКЛЮЧЕНИЯ К СЕРВЕРУ");
+            System.out.println("ERROR CONNECTING TO THE SERVER");
             System.exit(0);
         } catch (NoSuchElementException e) {
-            System.out.println("ЭКСТРЕННОЕ ЗАВЕРШЕНИЕ");
+            System.out.println("INCORRECT INPUT\nSAMPLE: java -jar Client.jar [hostname] [port] [gui/cli]");
             System.exit(0);
         } catch (ArrayIndexOutOfBoundsException e) {
-            System.out.println("УКАЖИТЕ ХОСТ И ПОРТ СЕРВЕРА\nSAMPLE: java -jar Client.jar [hostname] [port] [version]");
+            System.out.println("SPECIFY THE HOST AND PORT OF THE SERVER\nSAMPLE: java -jar Client.jar [hostname] [port] [gui/cli]");
         } catch (NumberFormatException e) {
-            System.out.println("НЕКОРРЕКТНЫЙ ПОРТ\nSAMPLE: java -jar Client.jar [hostname] [port] [version]");
+            System.out.println("INCORRECT SERVER PORT\nSAMPLE: java -jar Client.jar [hostname] [port] [gui/cli]");
         } catch (UnresolvedAddressException e) {
-            System.out.println("НЕКОРРЕКТНЫЙ ХОСТ\nSAMPLE: java -jar Client.jar [hostname] [port] [version]");
+            System.out.println("INCORRECT SERVER HOST\nSAMPLE: java -jar Client.jar [hostname] [port] [gui/cli]");
         } catch (IllegalArgumentException e) {
-            System.out.println("НЕКОРРЕКТНЫЙ ВВОД\nSAMPLE: java -jar Client.jar [hostname] [port] [version]");
+            System.out.println("INCORRECT INPUT\nSAMPLE: java -jar Client.jar [hostname] [port] [gui/cli]");
         }
     }
 }

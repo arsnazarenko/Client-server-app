@@ -2,15 +2,15 @@ package client.commandProducers;
 
 import client.servises.IObjectCreator;
 import client.servises.ArgumentValidateManager;
-import library.clientCommands.Command;
-import library.clientCommands.UserData;
-import library.clientCommands.commandType.UpdateIdCommand;
+import library.command.Command;
+import library.model.UserData;
+import library.command.UpdateIdCommand;
 
 import java.util.Scanner;
 
 public class UpdateIdCommandProd implements ScanProperties, ArgumentProperties {
-    private ArgumentValidateManager argumentValidateManager;
-    private IObjectCreator objectCreator;
+    private final ArgumentValidateManager argumentValidateManager;
+    private final IObjectCreator objectCreator;
     private Long id = null;
     private Scanner scanner;
 

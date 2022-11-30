@@ -1,6 +1,6 @@
 package server.business.dao;
 
-import library.сlassModel.*;
+import library.model.*;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 

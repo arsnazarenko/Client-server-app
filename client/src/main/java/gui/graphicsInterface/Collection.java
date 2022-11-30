@@ -2,9 +2,9 @@ package gui.graphicsInterface;
 
 
 import gui.graphicsInterface.controllers.Controllers;
-import library.сlassModel.Address;
-import library.сlassModel.Location;
-import library.сlassModel.Organization;
+import library.model.Address;
+import library.model.Location;
+import library.model.Organization;
 
 import java.text.DateFormat;
 import java.text.NumberFormat;

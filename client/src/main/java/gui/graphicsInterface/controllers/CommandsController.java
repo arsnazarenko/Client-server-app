@@ -4,10 +4,10 @@ import gui.ClientManager;
 import gui.graphicsInterface.mainWindow.MainWindow;
 import gui.objectWindows.ObjectsMapController;
 import gui.objectWindows.OrganizationController;
-import library.clientCommands.Command;
-import library.clientCommands.InfoCollection;
-import library.clientCommands.commandType.*;
-import library.сlassModel.Organization;
+import library.command.Command;
+import library.utils.InfoCollection;
+import library.command.*;
+import library.model.Organization;
 
 import javax.swing.*;
 import java.text.DateFormat;

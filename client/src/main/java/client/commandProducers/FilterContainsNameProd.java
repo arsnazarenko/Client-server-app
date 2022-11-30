@@ -1,13 +1,13 @@
 package client.commandProducers;
 
 import client.servises.ArgumentValidateManager;
-import library.clientCommands.Command;
-import library.clientCommands.UserData;
-import library.clientCommands.commandType.FilterContainsNameCommand;
+import library.command.Command;
+import library.model.UserData;
+import library.command.FilterContainsNameCommand;
 
 public class FilterContainsNameProd implements StandardCommandProducer, ArgumentProperties{
     private String name = null;
-    private ArgumentValidateManager argumentValidateManager;
+    private final ArgumentValidateManager argumentValidateManager;
 
     public FilterContainsNameProd(ArgumentValidateManager argumentValidateManager) {
         this.argumentValidateManager = argumentValidateManager;

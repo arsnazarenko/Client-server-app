@@ -1,7 +1,7 @@
 package library.command;
 
 
-import library.utils.UserData;
+import library.model.UserData;
 
 public class HeadCommand extends Command {
 

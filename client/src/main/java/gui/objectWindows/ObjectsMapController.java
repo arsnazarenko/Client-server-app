@@ -1,6 +1,6 @@
 package gui.objectWindows;
 
-import library.сlassModel.Organization;
+import library.model.Organization;
 
 import javax.swing.*;
 import java.awt.*;

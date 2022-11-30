@@ -2,7 +2,7 @@ package client;
 
 import client.servises.*;
 import gui.GuiAnswerHandler;
-import library.clientCommands.Command;
+import library.command.Command;
 import library.serialization.SerializationManager;
 
 import javax.swing.*;
@@ -17,7 +17,6 @@ import java.util.Iterator;
 public class GuiClient {
     private final ByteBuffer buffer;
     private final SocketAddress address;
-//    private IAnswerHandler answerHandler;
     private MessageService messageService;
     private FrontendInit frontendInit;
     private GuiAnswerHandler guiAnswerHandler;
@@ -65,8 +64,6 @@ public class GuiClient {
         }
 
     }
-
-
 
     private Object read(SelectionKey selectionKey, ByteBuffer buffer) throws IOException {    //пробрасываем исключения и обрабатываем их в NioClient
         buffer.clear();

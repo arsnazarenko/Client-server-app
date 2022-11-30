@@ -1,6 +1,6 @@
 package client.servises;
 
-import library.сlassModel.Organization;
+import library.model.Organization;
 
 import java.util.Scanner;
 

@@ -2,7 +2,7 @@ package gui;
 
 import client.servises.IAnswerHandler;
 import gui.graphicsInterface.controllers.Controllers;
-import library.clientCommands.SpecialSignals;
+import library.utils.SpecialSignals;
 
 import javax.swing.*;
 

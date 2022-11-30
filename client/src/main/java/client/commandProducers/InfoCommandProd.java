@@ -1,8 +1,8 @@
 package client.commandProducers;
 
-import library.clientCommands.Command;
-import library.clientCommands.UserData;
-import library.clientCommands.commandType.InfoCommand;
+import library.command.Command;
+import library.model.UserData;
+import library.command.InfoCommand;
 
 public class InfoCommandProd implements StandardCommandProducer{
 

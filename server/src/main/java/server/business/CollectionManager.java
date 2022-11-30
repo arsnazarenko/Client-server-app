@@ -1,7 +1,7 @@
 package server.business;
 
 
-import library.сlassModel.Organization;
+import library.model.Organization;
 
 import java.util.ArrayDeque;
 import java.util.Date;

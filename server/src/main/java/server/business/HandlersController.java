@@ -2,10 +2,10 @@ package server.business;
 
 
 
-import library.clientCommands.Command;
-import library.clientCommands.UserData;
-import library.clientCommands.commandType.*;
-import library.сlassModel.Organization;
+import library.command.Command;
+import library.model.UserData;
+import library.command.*;
+import library.model.Organization;
 import server.business.dao.ObjectDAO;
 import server.business.dao.UserDAO;
 import server.business.handlers.*;

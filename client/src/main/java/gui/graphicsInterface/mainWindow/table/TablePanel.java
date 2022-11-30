@@ -4,7 +4,7 @@ package gui.graphicsInterface.mainWindow.table;
 import gui.graphicsInterface.Collection;
 import gui.graphicsInterface.LocaleActionListener;
 import gui.graphicsInterface.controllers.Controllers;
-import library.сlassModel.Organization;
+import library.model.Organization;
 
 import javax.swing.*;
 import java.awt.*;

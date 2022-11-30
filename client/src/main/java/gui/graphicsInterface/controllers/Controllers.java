@@ -11,7 +11,7 @@ import gui.graphicsInterface.mainWindow.MainWindow;
 import gui.graphicsInterface.mainWindow.commands.CommandPanel;
 import gui.graphicsInterface.mainWindow.table.TablePanel;
 import gui.objectWindows.*;
-import library.clientCommands.SpecialSignals;
+import library.utils.SpecialSignals;
 
 import javax.swing.*;
 import java.awt.event.WindowAdapter;
@@ -35,7 +35,7 @@ public class Controllers {
     public Controllers(LogInWindow logInWindow, ClientManager clientManager, Menu menu, Locale locale) {
         this.logInWindow = logInWindow;
         this.menu = menu;
-        this.locale = locale;
+        Controllers.locale = locale;
         collection = new Collection();
         organizationCreateController = new OrganizationController(new OrganizationView(), new ObjectCreatorUI(new ObjectDataValidator()), clientManager,collection);
         organizationCreateControllerForMap = new OrganizationController(new OrganizationView(), new ObjectCreatorUI(new ObjectDataValidator()), clientManager,collection);
@@ -49,7 +49,6 @@ public class Controllers {
         listeners.add(logInWindow);
         listeners.add(logInWindow.getAuthorizationPanel());
         listeners.add(logInWindow.getRegistrationPanel());
-//        listeners.add(mapController.getView());
         listeners.add(organizationCreateController.getView());
     }
 

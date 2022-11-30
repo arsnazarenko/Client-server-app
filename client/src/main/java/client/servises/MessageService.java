@@ -1,6 +1,6 @@
 package client.servises;
 
-import library.clientCommands.Command;
+import library.command.Command;
 
 import java.nio.channels.Selector;
 import java.util.ArrayDeque;

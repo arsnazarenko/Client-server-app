@@ -1,7 +1,7 @@
 package client.servises;
 
 import gui.graphicsInterface.controllers.Controllers;
-import library.сlassModel.OrganizationType;
+import library.model.OrganizationType;
 
 import java.text.NumberFormat;
 import java.text.ParseException;

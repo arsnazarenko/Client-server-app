@@ -1,7 +1,7 @@
 package client.servises;
 
-import library.clientCommands.Command;
-import library.clientCommands.commandType.ExecuteScriptCommand;
+import library.command.Command;
+import library.command.ExecuteScriptCommand;
 
 import java.io.File;
 import java.io.FileInputStream;

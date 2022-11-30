@@ -2,7 +2,7 @@ package gui.objectWindows;
 
 import client.servises.ObjectDataValidator;
 import gui.graphicsInterface.controllers.Controllers;
-import library.сlassModel.*;
+import library.model.*;
 import javax.swing.*;
 import java.text.NumberFormat;
 import java.text.ParseException;

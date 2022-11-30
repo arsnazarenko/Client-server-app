@@ -1,8 +1,8 @@
 package client.commandProducers;
 
-import library.clientCommands.Command;
-import library.clientCommands.UserData;
-import library.clientCommands.commandType.ExecuteScriptCommand;
+import library.command.Command;
+import library.model.UserData;
+import library.command.ExecuteScriptCommand;
 
 public class ExecuteScriptCommandProd implements StandardCommandProducer, ArgumentProperties {
     private String script = null;

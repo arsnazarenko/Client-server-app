@@ -1,8 +1,8 @@
 package server.business.handlers;
 
-import library.clientCommands.Command;
-import library.clientCommands.SpecialSignals;
-import library.clientCommands.UserData;
+import library.command.Command;
+import library.utils.SpecialSignals;
+import library.model.UserData;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import server.business.dao.UserDAO;

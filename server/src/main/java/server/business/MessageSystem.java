@@ -1,6 +1,6 @@
 package server.business;
 
-import library.clientCommands.commandType.*;
+import library.command.*;
 import server.business.services.ServerHandler;
 import server.business.services.ServerReceiver;
 import server.business.services.ServerSender;

@@ -2,7 +2,7 @@ package library.serialization;
 
 import java.io.*;
 
-public class SerializationManager{
+public class SerializationManager {
 
     public SerializationManager() {
     }

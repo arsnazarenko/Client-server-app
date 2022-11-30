@@ -1,9 +1,9 @@
 package client.servises;
 
-import library.clientCommands.Command;
-import library.clientCommands.UserData;
-import library.clientCommands.commandType.ExecuteScriptCommand;
-import library.clientCommands.commandType.ExitCommand;
+import library.command.Command;
+import library.model.UserData;
+import library.command.ExecuteScriptCommand;
+import library.command.ExitCommand;
 
 import java.nio.channels.Selector;
 import java.util.*;
@@ -67,9 +67,7 @@ public class ServerWriter implements Runnable {
                 } else if (command.getClass() == ExitCommand.class) {
                     System.exit(0);
                 } else {
-                    if (command != null) {
-                        messageService.putInRequestQueue(command);
-                    }
+                    messageService.putInRequestQueue(command);
                 }
             }
 

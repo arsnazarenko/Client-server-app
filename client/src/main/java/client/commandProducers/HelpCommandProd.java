@@ -1,10 +1,10 @@
 package client.commandProducers;
 
-import library.clientCommands.Command;
-import library.clientCommands.UserData;
-import library.clientCommands.commandType.HelpCommand;
+import library.command.Command;
+import library.model.UserData;
+import library.command.HelpCommand;
 
-public class HelpCommandProd  implements StandardCommandProducer{
+public class HelpCommandProd  implements StandardCommandProducer {
     @Override
     public Command createCommand(UserData userData) {
         return new HelpCommand(userData);

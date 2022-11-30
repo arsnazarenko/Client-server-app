@@ -1,6 +1,6 @@
 package client.servises;
 
-import library.сlassModel.OrganizationType;
+import library.model.OrganizationType;
 
 public interface IValidator {
     public boolean stringFieldValidate(String str);

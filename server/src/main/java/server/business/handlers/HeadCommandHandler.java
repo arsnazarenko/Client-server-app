@@ -1,9 +1,9 @@
 package server.business.handlers;
 
-import library.clientCommands.Command;
-import library.clientCommands.SpecialSignals;
-import library.clientCommands.UserData;
-import library.сlassModel.Organization;
+import library.command.Command;
+import library.utils.SpecialSignals;
+import library.model.UserData;
+import library.model.Organization;
 import server.business.CollectionManager;
 import server.business.dao.UserDAO;
 

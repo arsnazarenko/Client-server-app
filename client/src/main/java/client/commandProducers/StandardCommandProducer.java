@@ -1,7 +1,7 @@
 package client.commandProducers;
 
-import library.clientCommands.Command;
-import library.clientCommands.UserData;
+import library.command.Command;
+import library.model.UserData;
 
 public interface StandardCommandProducer {
     Command createCommand(UserData userData);

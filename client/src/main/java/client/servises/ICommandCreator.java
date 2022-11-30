@@ -2,8 +2,8 @@ package client.servises;
 
 
 
-import library.clientCommands.Command;
-import library.clientCommands.UserData;
+import library.command.Command;
+import library.model.UserData;
 
 import java.io.InputStream;
 import java.util.Queue;

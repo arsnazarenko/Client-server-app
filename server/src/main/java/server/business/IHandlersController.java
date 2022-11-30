@@ -1,7 +1,7 @@
 package server.business;
 
 
-import library.clientCommands.Command;
+import library.command.Command;
 
 public interface IHandlersController {
     Object handle(Command command);

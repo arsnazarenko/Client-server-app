@@ -1,20 +1,23 @@
 package client;
 
 import client.servises.*;
-import library.clientCommands.Command;
-import library.clientCommands.SpecialSignals;
-import library.clientCommands.UserData;
-import library.clientCommands.commandType.LogCommand;
-import library.clientCommands.commandType.RegCommand;
+import library.command.Command;
+import library.utils.SpecialSignals;
+import library.model.UserData;
+import library.command.LogCommand;
+import library.command.RegCommand;
 import library.serialization.SerializationManager;
-import library.сlassModel.Organization;
+import library.model.Organization;
+
 import java.io.IOException;
 import java.net.SocketAddress;
 import java.nio.ByteBuffer;
 import java.nio.channels.DatagramChannel;
 import java.nio.channels.SelectionKey;
 import java.nio.channels.Selector;
-import java.util.*;
+import java.util.ArrayDeque;
+import java.util.Deque;
+import java.util.Iterator;
 import java.util.stream.Collectors;
 
 public class ConsoleClient {
@@ -60,7 +63,7 @@ public class ConsoleClient {
                 if (selectionKey.isReadable()) {
                     Object response = read(selectionKey, buffer);
                     answerHandler.answerHandle(response);
-                    if(response!= null) {
+                    if (response != null) {
                         responseHandle(serverWriter, response);
                     }// getting response
                 } else if (selectionKey.isWritable()) {

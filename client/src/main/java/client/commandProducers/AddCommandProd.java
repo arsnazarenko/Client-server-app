@@ -2,14 +2,14 @@ package client.commandProducers;
 
 
 import client.servises.IObjectCreator;
-import library.clientCommands.Command;
-import library.clientCommands.UserData;
-import library.clientCommands.commandType.AddCommand;
+import library.command.Command;
+import library.model.UserData;
+import library.command.AddCommand;
 
 import java.util.Scanner;
 
 public class AddCommandProd implements StandardCommandProducer, ScanProperties{
-    private IObjectCreator objectCreator;
+    private final IObjectCreator objectCreator;
     private Scanner scanner = null;
 
     public AddCommandProd(IObjectCreator objectCreator) {

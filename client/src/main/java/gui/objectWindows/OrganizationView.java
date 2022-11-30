@@ -1,7 +1,7 @@
 package gui.objectWindows;
 import gui.graphicsInterface.LocaleActionListener;
 import gui.graphicsInterface.controllers.Controllers;
-import library.сlassModel.OrganizationType;
+import library.model.OrganizationType;
 
 import javax.swing.*;
 import java.awt.*;

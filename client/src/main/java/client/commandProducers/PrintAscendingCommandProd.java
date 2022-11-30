@@ -1,8 +1,8 @@
 package client.commandProducers;
 
-import library.clientCommands.Command;
-import library.clientCommands.UserData;
-import library.clientCommands.commandType.PrintAscendingCommand;
+import library.command.Command;
+import library.model.UserData;
+import library.command.PrintAscendingCommand;
 
 public class PrintAscendingCommandProd implements StandardCommandProducer{
 

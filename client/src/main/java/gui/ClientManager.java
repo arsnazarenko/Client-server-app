@@ -2,10 +2,10 @@ package gui;
 import client.servises.ArgumentValidateManager;
 import client.servises.MessageService;
 import client.servises.ScriptManager;
-import library.clientCommands.Command;
-import library.clientCommands.SpecialSignals;
-import library.clientCommands.UserData;
-import library.clientCommands.commandType.ExecuteScriptCommand;
+import library.command.Command;
+import library.utils.SpecialSignals;
+import library.model.UserData;
+import library.command.ExecuteScriptCommand;
 
 import java.util.ArrayDeque;
 import java.util.Deque;

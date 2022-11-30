@@ -3,13 +3,13 @@ package client.servises;
 
 import client.commandData.CommandData;
 import client.commandProducers.*;
-import library.clientCommands.Command;
-import library.clientCommands.NameOfCommands;
+import library.command.Command;
+import library.utils.NameOfCommands;
 import java.util.EnumMap;
 import java.util.Map;
 import java.util.Scanner;
 
-import static library.clientCommands.NameOfCommands.*;
+import static library.utils.NameOfCommands.*;
 
 /**
  * Класс, отвечающий за валидацию данных и создания объекта команды для запроса серверу

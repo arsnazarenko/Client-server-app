@@ -3,12 +3,12 @@ package gui.objectWindows;
 import gui.ClientManager;
 import gui.graphicsInterface.Collection;
 import gui.graphicsInterface.controllers.Controllers;
-import library.clientCommands.Command;
-import library.clientCommands.UserData;
-import library.clientCommands.commandType.UpdateIdCommand;
-import library.сlassModel.Address;
-import library.сlassModel.Location;
-import library.сlassModel.Organization;
+import library.command.Command;
+import library.model.UserData;
+import library.command.UpdateIdCommand;
+import library.model.Address;
+import library.model.Location;
+import library.model.Organization;
 
 import javax.swing.*;
 import java.awt.event.WindowAdapter;

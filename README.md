@@ -1,5 +1,12 @@
 # Client-Server application for collection management
 
+## Used technologies:
+- JDK 11
+- Maven
+- PostgreSQL
+- Swing GUI Framework
+- Docker, Docker compose
+
 
 1. Build:
 ```shell
@@ -34,3 +41,7 @@ java -jar client.jar [SERVER_HOST] [SERVER_PORT] [gui/cli]
 docker compose up --detach
 ```
 > Don't forget to stop the docker container
+
+## Examples
+
+todo: add photos with examples

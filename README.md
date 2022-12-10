@@ -43,5 +43,7 @@ docker compose up --detach
 > Don't forget to stop the docker container
 
 ## Examples
-
-todo: add photos with examples
+<img src="samples/gui-reg.png" alt="Registration window" width="50%" height="50%" title="Registration window">
+<img src="samples/gui-add.png" alt="New Object creation window" width="50%" height="50%" title="New Object creation window">
+<img src="samples/gui-map.png" alt="Objects map window" width="50%" height="50%" title="Objects map window">
+<img src="samples/cli.png" alt="Command line interface" width="50%" height="50%" title="Command line interface">
